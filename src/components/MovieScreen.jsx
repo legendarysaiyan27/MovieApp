@@ -13,12 +13,12 @@ const MovieScreen = ({addMovie, movieList, page, setPage, list, removeMovie}) =>
 const movieDisplay = movieList.map( (movie, index) => {
    // return <h2>{original_title}</h2>
    return <MovieCard 
-   addMovie={addMovie}
-   movie={movie}
-   list={list}
+   addMovie={addMovie} 
+   movie={movie} 
+   list={list} 
    removeMovie={removeMovie}/>
 }
-)
+);
 //return a div with a classname of page
 //h1 tags with name of theater
 //h3 tag add a movie to watchlist
